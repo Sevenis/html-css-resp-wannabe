@@ -71,3 +71,70 @@ img {
 .clear {
   clear: both;
 }
+
+/* MEDIA QUERY per SMARTPHONE*/
+
+@media screen and (max-width:419px) {
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      /* padding: 0 5px; */
+      float: left;
+    }
+
+    #lezioni img {
+        margin-top: 50px;
+    }
+
+    /* BLOCCO LEZIONI */
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+    }
+
+    /* BLOCCO STEPS */
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 100%;
+    }
+
+    #steps img {
+        margin-top: 50px;
+    }
+}
+
+/* MEDIAQUERY per TABLET */
+@media screen and (max-width:768px) {
+    .row {
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 100px;
+      /* padding: 0 5px; */
+      float: left;
+    }
+
+    #lezioni img {
+        margin-top: 50px;
+    }
+
+    /* BLOCCO LEZIONI */
+    #lezioni .row>.left,
+    #lezioni .row>.right {
+      width: 100%;
+    }
+
+    /* BLOCCO STEPS */
+    #steps .row>.left,
+    #steps .row>.central,
+    #steps .row>.right {
+      width: 100%;
+    }
+
+    #steps img {
+        margin-top: 50px;
+    }
+}
